@@ -9,10 +9,14 @@
 @import "components/nav-bar.css";
 @import "components/screen-header.css";
 @import "components/user-components.css";
+@import "components/point.css";
+@import "components/find.css";
+@import "components/icon-row.css";
 
 /* screens */
 @import "screens/login.css";
 @import "screens/friends.css";
+@import "screens/more.css";
 
 body {
     color: #2e363e;
@@ -55,4 +59,8 @@ body {
 }
 #login-form input:focus {
     border-color: var(--yellow);
+}
+
+.main-screen {
+    padding: 0px var(--horizontal-space);
 }
